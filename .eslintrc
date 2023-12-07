@@ -1,0 +1,18 @@
+{
+  "env": {
+    "browser": true, // window, alert, documentを認識する
+    "node": true, // process
+    "es6": true // JavaScriptを許可する
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module" // import/exportを許可する
+  },
+  "rules": {
+    "no-console": ["error"],
+    "indent": ["error", 2],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "no-unused-vars": ["error"]
+  }
+}
