@@ -1,3 +1,4 @@
+// 主に構文解析の設定を行う
 {
   "env": {
     "browser": true, // window, alert, documentを認識する
