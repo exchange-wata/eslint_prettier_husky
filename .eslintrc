@@ -9,10 +9,12 @@
     "sourceType": "module" // import/exportを許可する
   },
   "rules": {
-    "no-console": ["error"],
-    "indent": ["error", 2],
-    "quotes": ["error", "single"],
-    "semi": ["error", "always"],
-    "no-unused-vars": ["error"]
-  }
+    //   "no-console": ["error"],
+    //   "indent": ["error", 2],
+    //   "quotes": ["error", "single"],
+    //   "semi": ["error", "always"],
+    "no-unused-vars": ["off"],
+    "linebreak-style": ["off"]
+  },
+  "extends": ["airbnb-base"]
 }
